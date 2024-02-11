@@ -1,0 +1,5 @@
+make function 
+perceptron(x1,x2,w1,w2,b)
+    y = (x1*w1) + (x2*w2) + b
+    //x1=age, x2 = affordability
+    z = 1/(1+e^-y)
